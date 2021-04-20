@@ -104,7 +104,7 @@ class GameState:
             if col[5]==" ":
                 self.board[column-1][5]='G'
             elif col[0]!=" ":
-                messagebox.showinfo("info","Μη επιτρεπτή κίνηση")
+                messagebox.showinfo("info","INVALID MOVE")
                 return("invalid move")
             else:
                 p=0
